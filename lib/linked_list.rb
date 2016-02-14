@@ -31,6 +31,7 @@ class LinkedList
       array = []
       all_check_next_node(@head_node, array)
     end
+    array.join(" ")
   end
 
   def insert(position, data)
